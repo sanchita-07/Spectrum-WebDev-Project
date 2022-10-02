@@ -1,1 +1,366 @@
 /* styling of the header */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #0f1621;
+    font-family: 'Inter Tight';
+}
+
+.box {
+    display: flex;
+    background-color: #0f1621;
+    color: rgba(247, 247, 247, 1);
+}
+
+.bg {
+
+    height: 70vh;
+    width: 60vw;
+}
+
+.img {
+    height: 55vh;
+    width: 40vw;
+    background-image: url(picc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 6.5%;
+}
+
+.logotext {
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-right: 3%;
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+li:nth-child(1) {
+    color: rgb(237, 152, 42);
+}
+
+.line {
+    height: 0.5%;
+    width: 6.5%;
+    background-color: rgb(237, 152, 42);
+    position: relative;
+    top: 13%;
+    left: 6.5%;
+}
+
+.text1 {
+    position: relative;
+    font-family: 'Inter Tight';
+    top: 71px;
+    right: 138px;
+    font-size: 44px;
+}
+
+.img {
+    display: flex;
+    padding: 160px;
+
+}
+
+.button {
+    height: 8%;
+    width: 27%;
+    background-color: rgb(237, 152, 42);
+}
+
+.register {
+    position: relative;
+    bottom: 116px;
+    left: 200px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+    bottom: 121px;
+    left: 267px;
+}
+
+.text1 span {
+    color: rgb(237, 152, 42);
+}
+
+.des {
+    position: relative;
+    top: 115px;
+    right: 137px;
+}
+
+.des2 {
+    position: relative;
+    top: 120px;
+    right: 137px;
+}
+
+.sale_rent {
+    display: flex;
+    position: relative;
+    right: 136px;
+    top: 170px;
+}
+
+.sale {
+    height: 26px;
+    width: 100px;
+    background-color: rgba(247, 247, 247, 1);
+    color: rgb(72, 72, 183);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 3px;
+}
+
+.rent {
+    height: 26px;
+    width: 100px;
+    background-color: rgb(102, 103, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 3px;
+}
+
+.property {
+    height: 65px;
+    width: 300px;
+    background-color: rgba(247, 247, 247, 1);
+    color: rgb(72, 72, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 136px;
+    top: 170px;
+    border-bottom-left-radius: 3px;
+}
+
+.search_location {
+    height: 65px;
+    width: 450px;
+    background-color: rgba(247, 247, 247, 1);
+    color: rgb(72, 72, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 105px;
+    left: 164px;
+}
+
+.search_click {
+    height: 65px;
+    width: 160px;
+    background-color: rgba(247, 247, 247, 1);
+    color: rgb(72, 72, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    left: 614px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.click {
+    background-color: rgb(237, 152, 42);
+    color: rgba(247, 247, 247, 1);
+    height: 44px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.logo1 {
+    height: 34px;
+    width: 34px;
+    background-image: url(1.png);
+    background-size: cover;
+    position: relative;
+    right: 104px;
+    bottom: 12px;
+}
+
+.logo2 {
+    height: 13px;
+    width: 17px;
+    background-image: url(2.png);
+    background-size: cover;
+    position: relative;
+    bottom: 36px;
+    left: 75px;
+}
+
+.logo3 {
+    height: 25px;
+    width: 23px;
+    background-image: url(3.png);
+    background-size: cover;
+    position: relative;
+    left: 214px;
+    bottom: 52px;
+}
+
+.logo4 {
+    width: 2px;
+    height: 50px;
+    background-color: rgb(245, 190, 118);
+    position: relative;
+    bottom: 90px;
+    left: 165px;
+}
+
+.square1 {
+    height: 18px;
+    width: 18px;
+    background-color: rgb(237, 152, 42);
+    position: relative;
+    right: 136px;
+    bottom: 27px;
+}
+
+.square2 {
+    height: 18px;
+    width: 18px;
+    background-color: rgba(247, 247, 247, 1);
+    position: relative;
+    bottom: 45px;
+    left: 213px;
+}
+
+.line1 {
+    position: relative;
+    right: 97px;
+    bottom: 63px;
+    font-weight: lighter;
+}
+
+.line2 {
+    position: relative;
+    bottom: 82px;
+    left: 252px;
+}
+
+.exp {
+    position: relative;
+    right: 140px;
+    bottom: 26px;
+    font-size: 45px;
+}
+
+.prop {
+    position: relative;
+    bottom: 80px;
+    font-size: 45px;
+    left: 158px;
+}
+
+.best_loc {
+    position: relative;
+    bottom: 135px;
+    font-size: 45px;
+    left: 449px;
+}
+
+.exp span {
+    color: rgb(237, 152, 42);
+}
+
+.prop span {
+    color: rgb(237, 152, 42);
+}
+
+.best_loc span {
+    color: rgb(237, 152, 42);
+}
+
+.exp_text {
+    position: relative;
+    right: 141px;
+    bottom: 120px;
+    font-size: 15px;
+}
+
+.prop_text {
+    position: relative;
+    bottom: 139px;
+    font-size: 15px;
+    left: 157px;
+}
+
+.best_loc_text {
+    position: relative;
+    bottom: 157px;
+    font-size: 15px;
+    left: 458px;
+}
+
+.descript {
+    height: 45px;
+    width: 200px;
+    background-image: url(des.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 60px;
+    left: 123px;
+}
+
+.equinix {
+    height: 77px;
+    width: 161px;
+    background-image: url(eq.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 879px;
+    bottom: 57px;
+}
+
+.parse {
+    height: 45px;
+    width: 200px;
+    background-image: url(par.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 12px;
+    left: 490px;
+
+}
+
+.american {
+    height: 91px;
+    width: 193px;
+    background-image: url(am.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 141px;
+    left: 1225px;
+}
